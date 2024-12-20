@@ -118,7 +118,8 @@ const Home = () => {
 
                 <section className="py-20 bg-gray-100" id="portfolio">
                     <div className="container max-w-7xl mx-auto px-4">
-                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600">Portfólio</h2>
+                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600">Portfólio</h2>
+                        <p className="textl-lg text-center mb-16 from-blue-600 to-green-600">Alguns dos meus principais projetos</p>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                             <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
                                 <img src="images/Dashboard.png" alt="Sistema de análise de fraudes" className="w-full h-48 object-cover" />
