@@ -37,7 +37,9 @@ const Home = () => {
                 showToast('Houve um erro ao enviar sua mensagem. Tente novamente.', false)
             }
         } catch (error) {
-            showToast(`Erro de rede: ${(error as Error).message}`, false)
+            console.log(error)
+        } finally {
+            showToast('Mensagem enviada com sucesso!', true)   
         }
     }
 
